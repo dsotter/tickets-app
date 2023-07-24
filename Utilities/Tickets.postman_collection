@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "32213fff-a759-42a3-81c0-ae92c3504471",
+		"name": "TICKETS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18527888"
+	},
+	"item": [
+		{
+			"name": "GET all - paginator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/ticket/v1/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"ticket",
+						"v1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/ticket/v1/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"ticket",
+						"v1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"Pablo\",\r\n    \"fechaCreacion\": null,\r\n    \"fechaActualizacion\": null,\r\n    \"estatus\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/ticket/v1",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"ticket",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"Pablo\",\r\n    \"fechaCreacion\": null,\r\n    \"fechaActualizacion\": null,\r\n    \"estatus\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/ticket/v1",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"ticket",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"Pablo\",\r\n    \"fechaCreacion\": null,\r\n    \"fechaActualizacion\": null,\r\n    \"estatus\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/ticket/v1/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"ticket",
+						"v1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
